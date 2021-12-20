@@ -1,8 +1,8 @@
 import os
 import webapp2
 import cgi
-    def escape_html(s):
-        return cgi.escape(s, quote = True)
+def escape_html(s):
+return cgi.escape(s, quote = True)
 
 form = """
 <form method="post">
