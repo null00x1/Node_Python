@@ -1,4 +1,5 @@
 import os
+os.system('pip install webapp2')
 import webapp2
 import cgi
 def escape_html(s):
